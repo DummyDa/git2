@@ -1,7 +1,5 @@
 from functions import *
 
-square = ploshad(2, 5)
+rectangle = create_rectangle(5, 2)
 
-perimeter = perimenr(3,5)
-
-print(f'Площадь: {square}, периметр: {perimeter}')
+print(f'Площадь: {rectangle.ploshad()}, периметр: {rectangle.perimeter()}')

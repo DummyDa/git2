@@ -1,5 +1,5 @@
-from functions import *
+from rectangle import Rectangle
 
-rectangle = create_rectangle(5, 2)
+rectangle = Rectangle(5, 2)
 
 print(f'Площадь: {rectangle.ploshad()}, периметр: {rectangle.perimeter()}')
